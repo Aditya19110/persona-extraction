@@ -1,3 +1,5 @@
+#REmove the IGNORE comments from the code
+# Persona Extraction and Reading Path Generation System
 from parser.section_extractor import extract_sections
 from nlp.intent_model import build_persona_profile
 from graph.graph_builder import build_concept_graph
