@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "persona": "I am a senior R&D strategist at a multinational tech firm. My job involves analyzing how competitors like Adobe and NASDAQ-listed companies invest in emerging technologies, particularly AI and automation.",
+    "job_to_be_done": "Understand how leading companies structure their R&D initiatives, especially in AI, to guide our own innovation roadmap and funding decisions."
+  },
+  "extracted_sections": [
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Untitled Section 3317",
+      "page_number": 1,
+      "importance_rank": 1
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Adobe Generative AI:",
+      "page_number": 1,
+      "importance_rank": 2
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Untitled Section 3396",
+      "page_number": 3,
+      "importance_rank": 3
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Untitled Section 3397",
+      "page_number": 3,
+      "importance_rank": 4
+    },
+    {
+      "document": "ai_research_trends.pdf",
+      "section_title": "Untitled Section 872",
+      "page_number": 22,
+      "importance_rank": 5
+    },
+    {
+      "document": "ai_research_trends.pdf",
+      "section_title": "Untitled Section 1227",
+      "page_number": 31,
+      "importance_rank": 6
+    },
+    {
+      "document": "ai_research_trends.pdf",
+      "section_title": "Untitled Section 2291",
+      "page_number": 58,
+      "importance_rank": 7
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Untitled Section 3428",
+      "page_number": 3,
+      "importance_rank": 8
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Untitled Section 3859",
+      "page_number": 10,
+      "importance_rank": 9
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "section_title": "Untitled Section 3304",
+      "page_number": 1,
+      "importance_rank": 10
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 1,
+      "refined_text": "About Adobe generative AI technology."
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 1,
+      "refined_text": "Adobe Generative AI:."
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 3,
+      "refined_text": "Without Adobe Generative AI."
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 3,
+      "refined_text": "With Adobe Generative AI."
+    },
+    {
+      "document": "ai_research_trends.pdf",
+      "page_number": 22,
+      "refined_text": "intend to make, acquisitions of, and investments in, companies, technologies or products in existing, related or new."
+    },
+    {
+      "document": "ai_research_trends.pdf",
+      "page_number": 31,
+      "refined_text": "Honestar Technologies Co., Ltd. ."
+    },
+    {
+      "document": "ai_research_trends.pdf",
+      "page_number": 58,
+      "refined_text": "Honestar Technologies Co., Ltd. ."
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 3,
+      "refined_text": "\u2022  Use Adobe Firefly or Generative Fill in Photoshop."
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 10,
+      "refined_text": "Adobe, the Adobe logo, Creative Cloud, Firefly, Illustrator, Photoshop and."
+    },
+    {
+      "document": "2023_Adobe-Generative-AI-Redefining-Productivity-in-Creative-Imaging.pdf",
+      "page_number": 1,
+      "refined_text": "Illustrator and through Adobe Firefly,."
+    }
+  ]
+}

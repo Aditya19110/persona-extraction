@@ -1,0 +1,81 @@
+# === Python cache and builds ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+*.pyd
+*.pyc
+MANIFEST
+build/
+dist/
+develop-eggs/
+.eggs/
+wheels/
+*.egg-info/
+.installed.cfg
+
+# === Virtual Environments ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Notebooks ===
+.ipynb_checkpoints
+
+# === Environment Files ===
+.env
+.env.*
+
+# === Model Files (except ONNX) ===
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.bin
+*.joblib
+*.nlp
+
+# === Cache and Logs ===
+.cache/
+*.cache
+*.log
+logs/
+log/
+.pytest_cache/
+.tox/
+coverage.xml
+.coverage
+.hypothesis/
+
+# === Large Downloads / HF / Transformers ===
+nltk_data/
+.transformers_cache/
+.cache/huggingface/
+transformers_cache/
+
+# === Submission Data and Artifacts ===
+*.gexf
+*.graphml
+*.dot
+results/
+temp/
+tmp/
+
+# === Docker and OS files ===
+.DS_Store
+ehthumbs.db
+Thumbs.db

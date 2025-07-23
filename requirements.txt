@@ -1,0 +1,9 @@
+PyMuPDF
+networkx
+scikit-learn
+spacy
+keybert
+yake
+sumy
+transformers
+onnxruntime
