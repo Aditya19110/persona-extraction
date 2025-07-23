@@ -110,17 +110,14 @@ persona-extraction/
 Edit `config.py` to customize system behavior:
 
 ```python
-# Input/Output Paths
 PDF_INPUT_DIR = "data/input/"
 PERSONA_JSON_PATH = "data/persona.json"
 OUTPUT_JSON_PATH = "data/output/reading_path.json"
 
-# Model Configuration
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 ONNX_MODEL_PATH = "model/model.onnx"
 TOKENIZER_PATH = "model/tokenizer/"
 
-# Algorithm Parameters
 SIMILARITY_THRESHOLD = 0.2
 MAX_READING_PATH_LENGTH = 10
 PERSONALIZED_PAGERANK_ALPHA = 0.85
