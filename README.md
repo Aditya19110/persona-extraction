@@ -218,4 +218,6 @@ The system generates a comprehensive JSON output:
 4. **Path Optimization**: Generates coherent reading sequences
 
 
-**Developed by Aditya Kulkarni and Vedika Lohiya**
+## Created By
+
+Aditya Kulkarni & Vedika Lohiya
