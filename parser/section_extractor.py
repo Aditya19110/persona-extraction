@@ -14,7 +14,6 @@ def extract_sections(pdf_dir):
             continue
         doc_path = os.path.join(pdf_dir, filename)
         doc = fitz.open(doc_path)
-
         for page_num, page in enumerate(doc, start=1):
             blocks = page.get_text("dict")["blocks"]
             for block in blocks:
@@ -24,10 +23,8 @@ def extract_sections(pdf_dir):
                     line_text = " ".join([span["text"] for span in line["spans"]]).strip()
                     if not line_text or len(line_text.split()) < 3:
                         continue
-
                     font_size = max(span["size"] for span in line["spans"])
-                    is_heading = font_size >= 13  # Heuristic
-
+                    is_heading = font_size >= 13
                     sections.append({
                         "section_id": f"{filename}_sec_{section_id}",
                         "doc_id": filename,
@@ -36,7 +33,6 @@ def extract_sections(pdf_dir):
                         "content": line_text,
                     })
                     section_id += 1
-
         doc.close()
 
     return sections

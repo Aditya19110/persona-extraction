@@ -9,17 +9,14 @@ def build_concept_graph(sections, similarity_threshold=0.2):
     G = nx.Graph()
     section_texts = []
     section_ids = []
-
     for section in sections:
         section_id = section['section_id']
         G.add_node(section_id, **section)
         section_ids.append(section_id)
         section_texts.append(section['content'])
-
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform(section_texts)
     sim_matrix = cosine_similarity(tfidf_matrix)
-
     n = len(section_ids)
     for i in range(n):
         for j in range(i + 1, n):

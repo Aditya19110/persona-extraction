@@ -4,11 +4,11 @@ PERSONA_JSON_PATH = "data/persona.json"
 OUTPUT_JSON_PATH = "data/output.json"
 
 # === Section Extraction ===
-HEADING_FONT_THRESHOLD = 13  # Font size to consider something a heading
+HEADING_FONT_THRESHOLD = 13  
 
 # === Graph Construction ===
-SIMILARITY_MEASURE = "minilm"  # Only use local minilm
-SIMILARITY_THRESHOLD = 0.2     # For graph edge creation
+SIMILARITY_MEASURE = "minilm"  
+SIMILARITY_THRESHOLD = 0.2     
 
 # === PageRank & Traversal ===
 MAX_READING_PATH_LENGTH = 10
